@@ -1,0 +1,135 @@
+
+.middle3{
+    position: relative;
+    top: 400px;
+}
+
+.middle3_title{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+}
+
+/* --------------------Swiper-------------------- */
+
+.swiper_Container{
+    position: relative;
+    display: flex;
+}
+
+.swiper{
+    width:95%;
+    height: fit-content;
+    margin-top: 100px;
+}
+
+.swiper-button-prev, .swiper-button-next{
+    background: linear-gradient(180deg, rgba(179, 33, 231, 0.4) 0%, rgba(111, 28, 242, 0.4) 100%);
+    border-radius: 50%;
+    width: 60px !important;
+    height: 60px !important;
+    color: white !important;
+    transition: .3s;
+}
+
+.swiper-button-prev:hover, .swiper-button-next:hover{
+    transform: scale(1.1);
+}
+
+/* --------------------rows-------------------- */
+
+.middle3_row_1, .middle3_row_2{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-right: 100px;
+    padding-left: 100px;
+}
+
+.middle3_row_2{
+    padding-top: 50px;
+}
+
+/* --------------------blocks-------------------- */
+
+.middle3_block{
+    width: 320px;
+    height: 130px;
+    background: #D9D9D914;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding-right: 30px;
+    transition: .3s;
+}
+
+.middle3_block:hover{
+    transform: scale(1.1);
+}
+
+.middle3_block img{
+    width: 80px;
+    z-index: 1;
+    border-radius: 50%;
+}
+
+.middle3_block2{
+    background: linear-gradient(104.35deg, rgba(179, 33, 231, 0.4) 29.82%, rgba(105, 27, 242, 0.4) 97.24%);
+}
+
+.middle3_block_red{
+    background-color: rgb(124, 25, 45);
+}
+
+/* --------------------description-------------------- */
+
+.middle3_block_description{
+    margin-left: 30px;
+}
+
+.middle3_block_title{
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 25px;
+    text-align: left;
+    letter-spacing: 1px;
+}
+
+.middle3_block_subTitle{
+    color: #D7D7D7;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19px;
+    text-align: left;
+    margin-top: 10px;
+    
+}
+
+@media screen and (max-width:750px) {
+    .middle3{
+        top: 600px;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .middle3_block img{
+        width: 60px;
+        height: 60px;
+        margin-left: 20px;
+    }
+    .middle3_block_description{
+        position: relative;
+        left: 10px;
+        margin-left: 0;
+    }
+}

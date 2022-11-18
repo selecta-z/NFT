@@ -1,0 +1,174 @@
+
+.middle4{
+    position: relative;
+    top: 550px;
+}
+
+.middle4_title{
+    color: white;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+    text-align: left;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* --------------------middle4_blocks-------------------- */
+
+.middle4_block1, .middle4_block2, .middle4_block3{
+    display: flex;
+    position: relative;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    width: 360px;
+    height: 500px;
+    transition: .5s;
+}
+
+/* .middle4_block1:hover, .middle4_block2:hover, .middle4_block3:hover{
+    transform: scale(1.09);
+} */
+
+/* --------------------middle4_blocks_section1_(img)-------------------- */
+
+.middle4_block1_1{
+    overflow: hidden;
+}
+
+.middle4_block1_1 img{
+    width: 320px;
+    height: 260px;
+    display: block;
+    transition: .6s;
+}
+
+.middle4_blocks img:hover, .middle4_blocks img:hover, .middle4_blocks img:hover{
+    transform: scale(1.2);
+}
+
+/* --------------------middle4_blocks_section2-------------------- */
+
+.middle4_block1_2{
+    justify-content: space-around;
+    flex-direction: row;
+    display: flex;
+    position: relative;
+    align-items: center;
+}
+
+.middle4_block1_2 .middle4_link_header{
+    position: relative;
+    left: -85px;
+    width: 30px;
+    height: 30px;
+}
+
+.middle2_block_admin{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: left;
+    color: #BA21E7;
+    position: relative;
+    left: -75px;
+}
+
+.middle2_block_date{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19px;
+    text-align: right;
+    color: #D7D7D7;
+    position: relative;
+    left: 78px;
+}
+
+/* --------------------middle4_blocks_section3-------------------- */
+
+.middle4_block1_3{
+    justify-content: left;
+    flex-direction: column;
+    display: flex;
+    position: relative;
+    align-items: center;
+}
+
+.middle2_block_title{
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 27px;
+    text-align: left;
+    letter-spacing: 1px;
+    margin-top: 20px;
+}
+
+.middle2_block_SubTitle{
+    color: #D7D7D7;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    letter-spacing: .5px;
+}
+
+/* --------------------middle4_blocks_section4-------------------- */
+
+.middle4_block1_4{
+    justify-content: space-around;
+    flex-direction: row;
+    display: flex;
+    position: relative;
+    align-items: center;
+}
+
+.middle4_block1_4 form{
+    position: relative;
+    top: -150px;
+    left: -60px;
+}
+
+/* --------------------middle4_blocks_general_settings-------------------- */
+
+.middle4_link_1, .middle4_link_0{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    border: 2px solid;
+    border-image-slice: 1;
+    border-image-source: linear-gradient(180deg, rgba(189, 33, 230, 0.74) 0%, rgba(87, 25, 244, 0.74) 100%);
+    transition: .3s;
+}
+
+.middle4_link_1:hover{
+    border-image-source: linear-gradient(135deg, rgba(230, 33, 108, 0.74) 0%, rgba(0, 0, 0, 0.74) 100%);
+}
+
+.middle4_link_1 a i, .middle4_link_0 i{
+    color: rgba(189, 33, 230, 0.74);
+}
+
+.middle4_link_one{
+    position: relative;
+    left: 45px;
+    cursor: pointer;
+}
+
+.middle4_link_two{
+    position: relative;
+    left: 60px;
+    cursor: pointer;
+}
+
+@media screen and (max-width:750px) {
+    .middle4{
+        top: 700px;
+    }
+}
